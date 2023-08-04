@@ -10,6 +10,8 @@
     align-content: center;
 }
 
+
+
 ul ol a {
     text-decoration: none;
 }
@@ -35,12 +37,15 @@ nav {
 
 }
 
-
+.icon{
+    display: none;
+}
 
 .nav_menu ul {
     display: flex;
     flex-wrap: wrap;
     column-gap: 44px;
+    padding-right: 10px;
 }
 
 .nav_menu ul ol a {
@@ -55,7 +60,6 @@ nav {
     color: #28b8d8;
     transition: all linear;
 }
-
 
 /* nav bar end */
 
