@@ -1,11 +1,10 @@
 
-
-
-@media screen and (min-width:320px) and (max-width:800px){
+@media screen and (max-width:399.99px){
     .container{
         width: 100%;
     }
 
+    /* =======================NAV======================= */
     .nav_wrapper{
         display: block;
         height: 80px;
@@ -37,6 +36,76 @@
     }
 
    
+    /* =======================BANNER======================= */
+
+    #banner{
+        padding: 180px 0 140px 0;
+    }
+
+    .text h2{
+        font-size: 35px;
+    }
+
+    .text h3{
+        font-size: 20px;
+    }
+
+    .text h4{
+        font-size: 14px;
+    }
+}
+
+   
+
+
+
+@media screen and (min-width:400px) and (max-width:800px){
+    .container{
+        width: 100%;
+    }
+
+    /* =======================NAV======================= */
+    .nav_wrapper{
+        display: block;
+        height: 80px;
+    }
+
+    .icon{
+        display: block;
+        padding-right: 10px;
+        color: white;
+    }
+
+    .icon:hover{
+        color:aqua
+    }
+
+    .logo{
+        padding-top: 35px;
+        padding-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .nav_menu ul{
+        margin-top: 20px;
+        display: block;
+        padding-left: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+   
+    /* =======================BANNER======================= */
+
+    #banner{
+        padding: 180px 0 140px 0;
+    }
+
+    .text h4{
+        font-size: 25px;
+    }
+
    }
 
 @media screen and (min-width:801px) and (max-width:1169px)  {
