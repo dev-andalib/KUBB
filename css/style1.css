@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+ul ol a {
+    text-decoration: none;
+}
+
+ul ol {
+    list-style-type: none;
+}
+
+
+/* nav bar start */
+nav {
+    background-color: rgba(0, 0, 0, 0.44);
+    width: 100%;
+    position: absolute;
+}
+
+.nav_wrapper {
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.nav_menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 44px;
+}
+
+.nav_menu ul ol a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+.nav_menu ul ol a:hover {
+    color: #28b8d8;
+    transition: all linear;
+}
+
+
+/* nav bar end */
+
+/* banner start */
+#banner {
+    background-image: url(../images/kubb1.jpg);
+    padding: 320px 0 240px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.banner_wrap {
+    text-align: center;
+}
+
+.banner_wrap .text h2,
+.banner_wrap .text h3,
+.banner_wrap .text h4 {
+    color: #fff;
+    padding: 5px 0;
+}
+
+.text h2 {
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.text h3 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.text h4 {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+
+}
+
+/* banner end */
+
+/*service start*/
+
+#service {
+    background-color: #f9f9f9;
+}
+
+.ser_wrap {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+
+.text2 {
+    margin: 80px 0 30px 0;
+}
+
+.text2 h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #444;
+
+}
+
+.text2 p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color: #666
+}
+
+.text2 h4 {
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    padding-bottom: 83px;
+
+}
+
+.one,
+.two,
+.three {
+    overflow: hidden;
+    border: 1.5px solid #e3e3e3;
+    width: 370px;
+    height: 355px;
+    margin-bottom: 23px;
+    background-color: #ffffff;
+}
+
+.ser_pic {
+    height: 225px;
+    width: 340px;
+    padding-top: 16px;
+    object-fit: cover;
+}
+
+.one h2,
+.two h2,
+.three h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.one p,
+.two p,
+.three p {
+    text-align: center;
+    color: #797979;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding-top: 14px;
+    line-height: 22px;
+
+}
+
+/* service end */
+
+/*insta start*/
+#insta {
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+}
+
+.insta_wrap {
+
+    padding: 49px 0;
+    text-align: center;
+
+}
+
+.insta_wrap h2 {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: #d5d5d5;
+    position: relative;
+    display: inline-block;
+
+}
+
+.insta_wrap h2::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #d5d5d5;
+    left: -30%;
+    top: 50%;
+    transform: translateX(-50%);
+
+}
+
+.insta_wrap h2::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #d5d5d5;
+    right: -30%;
+    top: 50%;
+    transform: translateX(50%);
+}
+
+.heading {
+    padding-bottom: 43px;
+}
+
+.pic2 {
+
+    display: flex;
+
+
+}
+
+.insta_pic {
+    width: 25%;
+    height: 328px;
+    overflow: hidden;
+    padding-bottom: 60px;
+
+}
+
+.insta_pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.more {
+    column-gap: 6px;
+    align-content: center;
+    border: 2px solid #8e8e8e;
+    padding: 16px 16px;
+    display: inline-flex;
+
+
+
+}
+
+.more h3 {
+    text-transform: uppercase;
+    color: #8e8e8e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+.more .fa-brands {
+    color: rgb(142, 142, 142);
+    font-size: 14px;
+}
+
+/* insta end */
+
+/*journal start*/
+#journal {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.journal_head h4 {
+    text-transform: uppercase;
+    color: #444444;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    position: relative;
+}
+
+.journal_head h4::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #d9d9d9;
+    right: 50%;
+    top: 50%;
+    display: inline-block;
+    transform: translateX(-90%);
+}
+
+.journal_head h4::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #d9d9d9;
+    left: 50%;
+    top: 50%;
+    display: inline-block;
+    transform: translateX(90%)
+}
+
+.jour_pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.jor_img {
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    padding: 25px 0;
+    width: 368px;
+    overflow: hidden;
+}
+
+.jor_img .toptxt h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.jor_img .toptxt h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #999;
+    padding-top: 16px;
+}
+
+.jor_img img {
+    padding-top: 25px;
+    width: 100%;
+    height: 224px;
+    object-fit: fill;
+
+}
+
+.jor_img .bottxt p {
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 26px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.func ul {
+    padding-top: 25px;
+    padding-left: 26px;
+    padding-right: 30px;
+}
+
+.func ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.func ul ol .link {
+    color: #c6c6c6;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.func ul ol .link::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #28b8d8;
+    left: 0;
+    bottom: 0;
+    transition: all linear 0.3s;
+
+}
+
+.func ul ol .link:hover::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #28b8d8;
+    left: 0;
+    bottom: 0;
+}
+
+.func ul ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.func ul ol h6 {
+    font-size: 14px;
+    color: #c6c6c6;
+}
+
+/* journal end */
+
+
+/*about start*/
+#about {
+    padding: 0 0 80px 0;
+
+}
+
+.about_wrap {
+    display: flex;
+
+}
+
+.part1 {
+    width: 50%;
+    display: flex;
+
+}
+
+.part2 {
+    width: 50%;
+    padding-top: 20px;
+}
+
+.part1 para,
+.part1 .img {
+    width: 50%;
+
+}
+
+.about_txt {
+    display: flex;
+    column-gap: 459px;
+}
+
+.about_txt h5 {
+    color: #444;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.about_txt h5::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #d5d5d5;
+    right: 0;
+    bottom: 50%;
+    transform: translateX(115%);
+}
+
+.part1 {
+    padding-top: 25px;
+    column-gap: 24px;
+}
+
+.part1 .para .f1 {
+    color: #666;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 28px;
+    line-height: 28px;
+}
+
+.part1 .para .f2 {
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about_txt h6 {
+    color: #444;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.about_txt h6::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #d5d5d5;
+    right: 0;
+    bottom: 50%;
+    transform: translateX(115%);
+}
+
+.seri1,
+.seri2,
+.seri3 {
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+}
+
+.tt p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #666;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.tt h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 6px;
+    color: #444;
+}
+
+/* about end */
+
+
+
+/*End start*/
+#end{
+    background-color: #373737;
+}
+.end_wrap{
+    padding: 69px 0 65px 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* .get, .twitter, .pop_post, .aboutus{
+    width: 25%;
+} */
+.gt h3, .twitter h3, .pop_post h3, .aboutus h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.gt p, .twitter p, .pop_post p, .aboutus p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #cacaca;
+    line-height: 27px;
+}
+.add .add1, .add .add2, .add .add3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #cacaca
+}
+
+.add{
+    padding-top:32px;
+}
+.add1, .add2, .add3{
+    line-height: 23px;
+}
+.twitter .p1, .twitter .p2{
+    padding-top: 32px ;
+}
+.pop_post .p1, .pop_post .p2{
+    padding-top: 32px ;
+}
+
+.aboutus .p1{
+    padding-top: 32px ; 
+}
+/* End end */
+
+
+/*Rights start*/
+#right{
+    background-color: #333333;
+}
+.rightwrap{
+    padding: 39px 0 31px 0 ;
+}
+.rightwrap h4{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:#cacaca;
+}
+                                /* THE END */
