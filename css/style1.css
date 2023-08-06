@@ -453,34 +453,38 @@ nav {
 /*about start*/
 #about {
     padding: 0 0 80px 0;
-
+    background-color: #f9f9f9;
 }
 
 .about_wrap {
     display: flex;
+    flex-wrap: wrap;
 
 }
 
-.part1 {
+.flex-container{
     width: 50%;
+}
+.part1 {
     display: flex;
 
 }
 
 .part2 {
     width: 50%;
-    padding-top: 20px;
+    padding-left: 20px;
+    
 }
 
-.part1 para,
+
 .part1 .img {
     width: 50%;
 
 }
 
 .about_txt {
-    display: flex;
-    column-gap: 459px;
+    display: inline-block;
+    padding-bottom: 20px;
 }
 
 .about_txt h5 {

@@ -59,11 +59,38 @@
         display: flex;
         flex-wrap: wrap;
         
+        
     }
     #insta .insta_wrap .pic2 .insta_pic{
         width: 100%;
+        padding-bottom: 15px;
         
     }
+
+
+    /* ============================ABOUT-ME=================== */
+    .part1{
+        padding-top: 0;
+    }
+    .part1 .img {
+        display: none;
+    }
+    
+    .about_txt{
+        padding-bottom: 20px;
+    }
+
+    .flex-container{
+        padding-left: 20px;
+        width: 100%; 
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .part2{
+        width: 100%;
+        padding-right: 10px;
+    }
+
 }
 
 
@@ -124,6 +151,29 @@
     #insta .insta_wrap .pic2 .insta_pic{
         width: 50%;
         
+    }
+
+    /* ============================ABOUT-ME=================== */
+    
+    .part1{
+        padding-top: 0;
+    }
+    .part1 .img {
+        display: none;
+    }
+
+    .about_txt{
+        padding-bottom: 20px;
+    }
+    .flex-container{
+        padding-left: 20px;
+        width: 100%; 
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .part2{
+        width: 100%;
+        padding-right: 10px;
     }
 
    }
