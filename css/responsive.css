@@ -91,6 +91,11 @@
         padding-right: 10px;
     }
 
+    .gt , .twitter, .pop_post, .aboutus{
+        width: 100%;
+        padding-top: 20px;
+    }
+
 }
 
 
@@ -175,6 +180,16 @@
         width: 100%;
         padding-right: 10px;
     }
+
+    /* ===================================footer / end===================== */
+    
+.gt , .twitter, .pop_post, .aboutus{
+    width: 50%;
+}
+
+.pop_post, .aboutus{
+    padding-top: 20px;
+}
 
    }
 

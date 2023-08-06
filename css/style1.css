@@ -587,13 +587,19 @@ nav {
     background-color: #373737;
 }
 .end_wrap{
-    padding: 69px 0 65px 0;
+    padding: 69px 10px 65px 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-/* .get, .twitter, .pop_post, .aboutus{
+
+
+.gt , .twitter, .pop_post, .aboutus{
     width: 25%;
-} */
+}
+
+
+
 .gt h3, .twitter h3, .pop_post h3, .aboutus h3{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
