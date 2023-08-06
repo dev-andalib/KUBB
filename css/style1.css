@@ -310,6 +310,9 @@ nav {
     background-color: #f9f9f9;
 }
 
+.journal_head{
+    padding-bottom: 30px;
+}
 .journal_head h4 {
     text-transform: uppercase;
     color: #444444;
