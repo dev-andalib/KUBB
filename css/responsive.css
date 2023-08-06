@@ -67,6 +67,31 @@
         
     }
 
+    .insta_wrap h2::before{
+        width: 60px;
+        right: -16%;
+    }
+    .insta_wrap h2::after{
+        width: 60px;
+        left:-16%;
+    }
+
+    /* =====================================JOURNAL=================================== */
+    .journal_head h4::after{
+        width: 60px;
+        right: 58%;
+
+
+    }
+    .journal_head h4::before{
+         width: 60px;
+         left: 58%;
+         
+         
+    }
+
+
+
 
     /* ============================ABOUT-ME=================== */
     .part1{
