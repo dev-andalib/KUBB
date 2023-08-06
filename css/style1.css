@@ -118,6 +118,7 @@ nav {
 .ser_wrap {
     text-align: center;
     background-color: #f9f9f9;
+    
 }
 
 
@@ -257,6 +258,7 @@ nav {
 .pic2 {
 
     display: flex;
+    flex-wrap:wrap;
 
 
 }

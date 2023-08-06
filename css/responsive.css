@@ -53,9 +53,18 @@
     .text h4{
         font-size: 14px;
     }
-}
 
-   
+    /* =================================Instagram=================== */
+    #insta .insta_wrap .pic2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #insta .insta_wrap .pic2 .insta_pic{
+        width: 100%;
+        
+    }
+}
 
 
 
@@ -104,6 +113,17 @@
 
     .text h4{
         font-size: 25px;
+    }
+
+    /* ============================Instagram=================== */
+    #insta .insta_wrap .pic2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #insta .insta_wrap .pic2 .insta_pic{
+        width: 50%;
+        
     }
 
    }
